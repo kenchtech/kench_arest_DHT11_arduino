@@ -18,8 +18,8 @@ aREST rest = aREST();
 DHT dht(DHTPIN, DHTTYPE, 15);
 
 // WiFi parameters
-const char* ssid = "kenchTech";
-const char* password = "kench1234";
+const char* ssid = "kenchTech";  //Input your WIFI name
+const char* password = "WIFI password"; // Input your WIFI password
 
 // The port to listen for incoming TCP connections 
 #define LISTEN_PORT           80
